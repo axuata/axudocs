@@ -43,6 +43,7 @@ export default defineConfig({
           items: [
             { text: 'addMessage', link: '/libraries/logica/functions/addMessage' },
             { text: 'addStatus', link: '/libraries/logica/functions/addStatus' },
+            { text: 'addStackTrace', link: '/libraries/logica/functions/addStackTrace' },
             { text: 'out', link: '/libraries/logica/functions/out' },
           ]
         },
