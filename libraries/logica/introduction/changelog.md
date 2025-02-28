@@ -13,3 +13,7 @@ This page shows the **changes** in each version.
 
 ## 🚧 0.1.1
 - Edit: README.md (to warn users that this package is under development)
+
+## 🚧 0.2.0
+- Add: addStackTrace function
+- Test: Added some test codes
