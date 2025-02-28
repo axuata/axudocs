@@ -10,3 +10,6 @@ This page shows the **changes** in each version.
 
 ## 🚧 0.1.0
 - Initial Version.
+
+## 🚧 0.1.1
+- Edit: README.md (to warn users that this package is under development)
