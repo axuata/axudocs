@@ -1,7 +1,7 @@
 # out
 Outputs the logged messages to the console.
 ::: warning
-This function is the exit point of the logging process.
+This function is the **exit point** of the logging process.
 :::
 
 ## Parameters

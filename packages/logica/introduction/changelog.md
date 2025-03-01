@@ -17,3 +17,11 @@ This page shows the **changes** in each version.
 ## 🚧 0.2.0
 - Add: addStackTrace function
 - Test: Added some test codes
+
+## 🎉 1.0.0
+- Add: addTimestamp function
+- Add: addAffix function
+- Add: addEnvironment function
+- Edit: README.md for 1.0.0 release
+- Test: Added some test codes for new functions
+- Test: Refactored the test codes

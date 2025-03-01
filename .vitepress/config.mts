@@ -44,6 +44,9 @@ export default defineConfig({
             { text: 'addMessage', link: '/packages/logica/functions/addMessage' },
             { text: 'addStatus', link: '/packages/logica/functions/addStatus' },
             { text: 'addStackTrace', link: '/packages/logica/functions/addStackTrace' },
+            { text: 'addTimestamp', link: '/packages/logica/functions/addTimestamp' },
+            { text: 'addAffix', link: '/packages/logica/functions/addAffix' },
+            { text: 'addEnvironment', link: '/packages/logica/functions/addEnvironment' },
             { text: 'out', link: '/packages/logica/functions/out' },
           ]
         },
