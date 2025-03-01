@@ -29,7 +29,7 @@ export default defineConfig({
     sidebar: {
       '/packages/logica': [
         {
-          text: 'Introduction',
+          text: '👋 Introduction',
           collapsed: false,
           items: [
             { text: 'What is Logica?', link: '/packages/logica/introduction/what-is-logica' },
@@ -38,7 +38,7 @@ export default defineConfig({
           ]
         },
         {
-          text: 'Functions',
+          text: '🛠️ Functions',
           collapsed: false,
           items: [
             { text: 'addMessage', link: '/packages/logica/functions/addMessage' },
@@ -51,7 +51,7 @@ export default defineConfig({
           ]
         },
         {
-          text: 'Types',
+          text: '🏷️ Types',
           collapsed: false,
           items: [
             { text: 'LogLevel', link: '/packages/logica/types/LogLevel' },
