@@ -10,9 +10,9 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       {
-        text: 'Libraries',
+        text: 'Packages',
         items: [
-          { text: 'Logica', link: '/libraries/logica/introduction/what-is-logica' },
+          { text: 'Logica', link: '/packages/logica/introduction/what-is-logica' },
         ]
       }
     ],
@@ -27,32 +27,32 @@ export default defineConfig({
     },
 
     sidebar: {
-      '/libraries/logica': [
+      '/packages/logica': [
         {
           text: 'Introduction',
           collapsed: false,
           items: [
-            { text: 'What is Logica?', link: '/libraries/logica/introduction/what-is-logica' },
-            { text: 'Getting Started', link: '/libraries/logica/introduction/getting-started' },
-            { text: 'Changelog', link: '/libraries/logica/introduction/changelog' },
+            { text: 'What is Logica?', link: '/packages/logica/introduction/what-is-logica' },
+            { text: 'Getting Started', link: '/packages/logica/introduction/getting-started' },
+            { text: 'Changelog', link: '/packages/logica/introduction/changelog' },
           ]
         },
         {
           text: 'Functions',
           collapsed: false,
           items: [
-            { text: 'addMessage', link: '/libraries/logica/functions/addMessage' },
-            { text: 'addStatus', link: '/libraries/logica/functions/addStatus' },
-            { text: 'addStackTrace', link: '/libraries/logica/functions/addStackTrace' },
-            { text: 'out', link: '/libraries/logica/functions/out' },
+            { text: 'addMessage', link: '/packages/logica/functions/addMessage' },
+            { text: 'addStatus', link: '/packages/logica/functions/addStatus' },
+            { text: 'addStackTrace', link: '/packages/logica/functions/addStackTrace' },
+            { text: 'out', link: '/packages/logica/functions/out' },
           ]
         },
         {
           text: 'Types',
           collapsed: false,
           items: [
-            { text: 'LogLevel', link: '/libraries/logica/types/LogLevel' },
-            { text: 'Theme', link: '/libraries/logica/types/Theme' },
+            { text: 'LogLevel', link: '/packages/logica/types/LogLevel' },
+            { text: 'Theme', link: '/packages/logica/types/Theme' },
           ]
         }
       ]
