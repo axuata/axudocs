@@ -47,6 +47,10 @@ export default defineConfig({
             { text: 'addTimestamp', link: '/packages/logica/functions/addTimestamp' },
             { text: 'addAffix', link: '/packages/logica/functions/addAffix' },
             { text: 'addEnvironment', link: '/packages/logica/functions/addEnvironment' },
+            { text: 'addProgressBar', link: '/packages/logica/functions/addProgressBar' },
+            { text: 'addIndentation', link: '/packages/logica/functions/addIndentation' },
+            { text: 'startGroup', link: '/packages/logica/functions/startGroup' },
+            { text: 'endGroup', link: '/packages/logica/functions/endGroup' },
             { text: 'out', link: '/packages/logica/functions/out' },
           ]
         },
