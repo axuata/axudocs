@@ -34,5 +34,5 @@ logger.addStatus('info', 'primary').addMessage('Hello World').out('log');
 ```
 will be:
 ```text
- INFO  Hello World // " INFO " has a background color.
+ INFO  Hello World
 ```
