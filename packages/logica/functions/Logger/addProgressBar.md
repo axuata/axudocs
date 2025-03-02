@@ -6,6 +6,10 @@ Adds a progress bar to the log.
 
 ## Example
 ```typescript
+import {Logger} from "@axuata/logica"; // [!code focus]
+
+const logger = new Logger(); // [!code focus]
+
 logger
     .addProgressBar(50) // [!code focus]
     .out('log');

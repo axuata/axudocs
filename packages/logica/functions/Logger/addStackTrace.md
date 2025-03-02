@@ -6,6 +6,9 @@ Adds the stack trace of an error to the log.
 
 ## Example
 ```typescript
+import {Logger} from "@axuata/logica"; // [!code focus]
+
+const logger = new Logger(); // [!code focus]
 const error = new Error('Test Error'); // [!code focus]
 
 logger

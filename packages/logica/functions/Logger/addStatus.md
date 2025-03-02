@@ -7,6 +7,10 @@ Adds a status label to the log with a specific theme.
 
 ## Example
 ```typescript
+import {Logger} from "@axuata/logica"; // [!code focus]
+
+const logger = new Logger(); // [!code focus]
+
 logger
     .addStatus('info', 'primary') // [!code focus]
     .out('log');

@@ -41,17 +41,28 @@ export default defineConfig({
           text: '🛠️ Functions',
           collapsed: false,
           items: [
-            { text: 'addMessage', link: '/packages/logica/functions/addMessage' },
-            { text: 'addStatus', link: '/packages/logica/functions/addStatus' },
-            { text: 'addStackTrace', link: '/packages/logica/functions/addStackTrace' },
-            { text: 'addTimestamp', link: '/packages/logica/functions/addTimestamp' },
-            { text: 'addAffix', link: '/packages/logica/functions/addAffix' },
-            { text: 'addEnvironment', link: '/packages/logica/functions/addEnvironment' },
-            { text: 'addProgressBar', link: '/packages/logica/functions/addProgressBar' },
-            { text: 'addIndentation', link: '/packages/logica/functions/addIndentation' },
-            { text: 'startGroup', link: '/packages/logica/functions/startGroup' },
-            { text: 'endGroup', link: '/packages/logica/functions/endGroup' },
-            { text: 'out', link: '/packages/logica/functions/out' },
+            {
+              text: 'Logger Class',
+              items: [
+                { text: 'addMessage', link: '/packages/logica/functions/Logger/addMessage' },
+                { text: 'addStatus', link: '/packages/logica/functions/Logger/addStatus' },
+                { text: 'addStackTrace', link: '/packages/logica/functions/Logger/addStackTrace' },
+                { text: 'addTimestamp', link: '/packages/logica/functions/Logger/addTimestamp' },
+                { text: 'addAffix', link: '/packages/logica/functions/Logger/addAffix' },
+                { text: 'addEnvironment', link: '/packages/logica/functions/Logger/addEnvironment' },
+                { text: 'addProgressBar', link: '/packages/logica/functions/Logger/addProgressBar' },
+                { text: 'addIndentation', link: '/packages/logica/functions/Logger/addIndentation' },
+                { text: 'out', link: '/packages/logica/functions/out' },
+              ]
+            },
+            {
+              text: 'Utils Class',
+              items: [
+                { text: 'startGroup', link: '/packages/logica/functions/Utils/startGroup' },
+                { text: 'endGroup', link: '/packages/logica/functions/Utils/endGroup' },
+              ]
+            },
+
           ]
         },
         {

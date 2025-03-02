@@ -6,6 +6,10 @@ Adds an environment label to the log message.
 
 ## Example
 ```typescript
+import {Logger} from "@axuata/logica"; // [!code focus]
+
+const logger = new Logger(); // [!code focus]
+
 logger
     .addEnvironment('development') // [!code focus]
     .out('log');

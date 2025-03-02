@@ -50,6 +50,9 @@ Adds a timestamp to the log with the specified format.
 
 ## Example
 ```typescript
+import {Logger} from "@axuata/logica"; // [!code focus]
+
+const logger = new Logger(); // [!code focus]
 const format: string = '[Y]-[MM]-[DD] [hh]:[mm]:[ss] (UTC[timezoneOffsetHours])';  // [!code focus]
 
 logger

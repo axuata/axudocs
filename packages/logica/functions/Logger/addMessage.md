@@ -6,6 +6,10 @@ Adds a message to the log.
 
 ## Example
 ```typescript
+import {Logger} from "@axuata/logica"; // [!code focus]
+
+const logger = new Logger(); // [!code focus]
+
 logger
     .addMessage('Hello World') // [!code focus]
     .out('log');

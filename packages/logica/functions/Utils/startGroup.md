@@ -6,7 +6,10 @@ Starts a new log group with the specified label.
 
 ## Example
 ```typescript
-logger
-    .startGroup('testLabel') // [!code focus]
-    .out('log');
+import {Utils} from "@axuata/logica"; // [!code focus]
+
+const utils = new Utils(); // [!code focus]
+
+utils
+    .startGroup('testLabel'); // [!code focus]
 ```
