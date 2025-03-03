@@ -1,5 +1,5 @@
 # What is Logica?
-Logica is a lightweight [Typescript](https://wikipedia.org/wiki/TypeScript) logging library.
+Logica is a lightweight [TypeScript](https://www.typescriptlang.org/) logging library.
 
 ## Why use Logica?
 - 📦 Minimal & Efficient – Small bundle size with no unnecessary dependencies.
