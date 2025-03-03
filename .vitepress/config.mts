@@ -1,4 +1,4 @@
-import { defineConfig } from 'vitepress'
+import { defineConfig } from 'vitepress';
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -52,6 +52,7 @@ export default defineConfig({
                 { text: 'addEnvironment', link: '/libraries/logica/functions/Logger/addEnvironment' },
                 { text: 'addProgressBar', link: '/libraries/logica/functions/Logger/addProgressBar' },
                 { text: 'addIndentation', link: '/libraries/logica/functions/Logger/addIndentation' },
+                { text: 'addDivider', link: '/libraries/logica/functions/Logger/addDivider' },
                 { text: 'out', link: '/libraries/logica/functions/out' },
               ]
             },
@@ -59,6 +60,7 @@ export default defineConfig({
               text: 'Utils Class',
               items: [
                 { text: 'startGroup', link: '/libraries/logica/functions/Utils/startGroup' },
+                { text: 'startGroupCollapsed', link: '/libraries/logica/functions/Utils/startGroupCollapsed' },
                 { text: 'endGroup', link: '/libraries/logica/functions/Utils/endGroup' },
               ]
             },

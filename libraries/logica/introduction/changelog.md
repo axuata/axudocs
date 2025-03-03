@@ -41,3 +41,10 @@ This page shows the **changes** in each version.
 
 ## 📌 1.1.2
 - Edit: README.md
+
+## ⚙️ 1.2.0
+- Add: startGroupCollapsed function (Utils)
+- Add: addDivider function (Logger)
+- Add: Added some test codes for new functions
+- Refactor: out function
+- Refactor: Test codes
