@@ -38,3 +38,6 @@ This page shows the **changes** in each version.
 
 ## 📌 1.1.1
 - Edit: startGroup function and endGroup function have been moved to the Utils class (now deprecated in the Logger class).
+
+## 📌 1.1.2
+- Edit: README.md
