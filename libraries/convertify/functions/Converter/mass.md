@@ -1,4 +1,4 @@
-# m`ass`
+# `mass`
 Converts mass units.
 
 ## ⚙️ Parameters
