@@ -5,7 +5,7 @@ This function is the **exit point** of the logging process.
 :::
 
 ## Parameters
-- `level` ([LogLevel](/packages/logica/types/LogLevel)): The **log level**.
+- `level` ([LogLevel](/libraries/logica/types/LogLevel)): The **log level**.
 
 ## Example
 ```typescript

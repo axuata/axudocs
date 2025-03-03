@@ -4,13 +4,13 @@ layout: home
 
 hero:
   name: "Axudocs"
-  text: "Documentation for Axuata's Packages"
-  tagline: Docs for Axuata's TypeScript Packages
+  text: "Documentation for Axuata's Libraries"
+  tagline: Docs for Axuata's TypeScript Libraries
 
 features:
   - icon: "⚡️"
     title: "Instant Access"
-    details: "Quickly access to documentation for Axuata's packages."
+    details: "Quickly access to documentation for Axuata's logica."
   - icon: "🧩"
     title: "Intuitive Structure"
     details: "Simple guides and API references that are easy to read."

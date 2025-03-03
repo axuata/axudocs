@@ -3,16 +3,16 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "Axudocs",
-  description: "📝 Documentation for Axuata's Packages",
+  description: "📝 Documentation for Axuata's Libraries",
   themeConfig: {
     logo: '/assets/logo.svg',
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
       {
-        text: 'Packages',
+        text: 'Libraries',
         items: [
-          { text: 'Logica', link: '/packages/logica/introduction/what-is-logica' },
+          { text: 'Logica', link: '/libraries/logica/introduction/what-is-logica' },
         ]
       }
     ],
@@ -27,14 +27,14 @@ export default defineConfig({
     },
 
     sidebar: {
-      '/packages/logica': [
+      '/libraries/logica': [
         {
           text: '👋 Introduction',
           collapsed: false,
           items: [
-            { text: 'What is Logica?', link: '/packages/logica/introduction/what-is-logica' },
-            { text: 'Getting Started', link: '/packages/logica/introduction/getting-started' },
-            { text: 'Changelog', link: '/packages/logica/introduction/changelog' },
+            { text: 'What is Logica?', link: '/libraries/logica/introduction/what-is-logica' },
+            { text: 'Getting Started', link: '/libraries/logica/introduction/getting-started' },
+            { text: 'Changelog', link: '/libraries/logica/introduction/changelog' },
           ]
         },
         {
@@ -44,22 +44,22 @@ export default defineConfig({
             {
               text: 'Logger Class',
               items: [
-                { text: 'addMessage', link: '/packages/logica/functions/Logger/addMessage' },
-                { text: 'addStatus', link: '/packages/logica/functions/Logger/addStatus' },
-                { text: 'addStackTrace', link: '/packages/logica/functions/Logger/addStackTrace' },
-                { text: 'addTimestamp', link: '/packages/logica/functions/Logger/addTimestamp' },
-                { text: 'addAffix', link: '/packages/logica/functions/Logger/addAffix' },
-                { text: 'addEnvironment', link: '/packages/logica/functions/Logger/addEnvironment' },
-                { text: 'addProgressBar', link: '/packages/logica/functions/Logger/addProgressBar' },
-                { text: 'addIndentation', link: '/packages/logica/functions/Logger/addIndentation' },
-                { text: 'out', link: '/packages/logica/functions/out' },
+                { text: 'addMessage', link: '/libraries/logica/functions/Logger/addMessage' },
+                { text: 'addStatus', link: '/libraries/logica/functions/Logger/addStatus' },
+                { text: 'addStackTrace', link: '/libraries/logica/functions/Logger/addStackTrace' },
+                { text: 'addTimestamp', link: '/libraries/logica/functions/Logger/addTimestamp' },
+                { text: 'addAffix', link: '/libraries/logica/functions/Logger/addAffix' },
+                { text: 'addEnvironment', link: '/libraries/logica/functions/Logger/addEnvironment' },
+                { text: 'addProgressBar', link: '/libraries/logica/functions/Logger/addProgressBar' },
+                { text: 'addIndentation', link: '/libraries/logica/functions/Logger/addIndentation' },
+                { text: 'out', link: '/libraries/logica/functions/out' },
               ]
             },
             {
               text: 'Utils Class',
               items: [
-                { text: 'startGroup', link: '/packages/logica/functions/Utils/startGroup' },
-                { text: 'endGroup', link: '/packages/logica/functions/Utils/endGroup' },
+                { text: 'startGroup', link: '/libraries/logica/functions/Utils/startGroup' },
+                { text: 'endGroup', link: '/libraries/logica/functions/Utils/endGroup' },
               ]
             },
 
@@ -69,8 +69,8 @@ export default defineConfig({
           text: '🏷️ Types',
           collapsed: false,
           items: [
-            { text: 'LogLevel', link: '/packages/logica/types/LogLevel' },
-            { text: 'Theme', link: '/packages/logica/types/Theme' },
+            { text: 'LogLevel', link: '/logica/logica/types/LogLevel' },
+            { text: 'Theme', link: '/logica/logica/types/Theme' },
           ]
         }
       ]
