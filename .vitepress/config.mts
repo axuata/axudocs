@@ -12,8 +12,7 @@ export default defineConfig({
       {
         text: 'Libraries',
         items: [
-          { text: 'Logica', link: '/libraries/logica/introduction/what-is-logica' },
-          { text: 'Convertify', link: '/libraries/convertify/introduction/what-is-convertify' },
+          { text: 'Logica', link: '/libraries/logica/introduction/what-is-logica' }
         ]
       }
     ],
