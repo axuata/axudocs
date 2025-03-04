@@ -76,38 +76,6 @@ export default defineConfig({
             { text: 'Theme', link: '/libraries/logica/types/Theme' },
           ]
         }
-      ],
-      '/libraries/convertify': [
-        {
-          text: '👋 Introduction',
-          collapsed: false,
-          items: [
-            { text: 'What is Convertify?', link: '/libraries/convertify/introduction/what-is-convertify' },
-            { text: 'Getting Started', link: '/libraries/convertify/introduction/getting-started' },
-            { text: 'Changelog', link: '/libraries/convertify/introduction/changelog' },
-          ]
-        },
-        {
-          text: '🛠️ Functions',
-          collapsed: false,
-          items: [
-            {
-              text: 'Converter Class',
-              items: [
-                { text: 'length', link: '/libraries/convertify/functions/Converter/length' },
-                { text: 'mass', link: '/libraries/convertify/functions/Converter/mass' },
-              ]
-            },
-          ]
-        },
-        {
-          text: '🏷️ Types',
-          collapsed: false,
-          items: [
-            { text: 'LengthUnit', link: '/libraries/convertify/types/LengthUnit' },
-            { text: 'MassUnit', link: '/libraries/convertify/types/MassUnit' },
-          ]
-        }
       ]
     },
 
