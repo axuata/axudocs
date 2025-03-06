@@ -4,8 +4,8 @@ layout: home
 
 hero:
   name: "Axudocs"
-  text: "Documentation for Axuata's Libraries"
-  tagline: Docs for Axuata's TypeScript Libraries
+  text: "Documentation for Axuata's Packages"
+  tagline: Docs for Axuata's TypeScript Packages
 
 features:
   - icon: "⚡️"

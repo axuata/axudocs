@@ -3,16 +3,16 @@ import { defineConfig } from 'vitepress';
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "Axudocs",
-  description: "📝 Documentation for Axuata's Libraries",
+  description: "📝 Documentation for Axuata's Packages",
   themeConfig: {
     logo: '/assets/logo.svg',
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
       {
-        text: 'Libraries',
+        text: 'Packages',
         items: [
-          { text: 'Logica', link: '/libraries/logica/introduction/what-is-logica' }
+          { text: 'Logica', link: '/packages/logica/introduction/what-is-logica' }
         ]
       }
     ],
@@ -27,14 +27,14 @@ export default defineConfig({
     },
 
     sidebar: {
-      '/libraries/logica': [
+      '/packages/logica': [
         {
           text: '👋 Introduction',
           collapsed: false,
           items: [
-            { text: 'What is Logica?', link: '/libraries/logica/introduction/what-is-logica' },
-            { text: 'Getting Started', link: '/libraries/logica/introduction/getting-started' },
-            { text: 'Changelog', link: '/libraries/logica/introduction/changelog' },
+            { text: 'What is Logica?', link: '/packages/logica/introduction/what-is-logica' },
+            { text: 'Getting Started', link: '/packages/logica/introduction/getting-started' },
+            { text: 'Changelog', link: '/packages/logica/introduction/changelog' },
           ]
         },
         {
@@ -44,24 +44,24 @@ export default defineConfig({
             {
               text: 'Logger Class',
               items: [
-                { text: 'addMessage', link: '/libraries/logica/functions/Logger/addMessage' },
-                { text: 'addStatus', link: '/libraries/logica/functions/Logger/addStatus' },
-                { text: 'addStackTrace', link: '/libraries/logica/functions/Logger/addStackTrace' },
-                { text: 'addTimestamp', link: '/libraries/logica/functions/Logger/addTimestamp' },
-                { text: 'addAffix', link: '/libraries/logica/functions/Logger/addAffix' },
-                { text: 'addEnvironment', link: '/libraries/logica/functions/Logger/addEnvironment' },
-                { text: 'addProgressBar', link: '/libraries/logica/functions/Logger/addProgressBar' },
-                { text: 'addIndentation', link: '/libraries/logica/functions/Logger/addIndentation' },
-                { text: 'addDivider', link: '/libraries/logica/functions/Logger/addDivider' },
-                { text: 'out', link: '/libraries/logica/functions/out' },
+                { text: 'addMessage', link: '/packages/logica/functions/Logger/addMessage' },
+                { text: 'addStatus', link: '/packages/logica/functions/Logger/addStatus' },
+                { text: 'addStackTrace', link: '/packages/logica/functions/Logger/addStackTrace' },
+                { text: 'addTimestamp', link: '/packages/logica/functions/Logger/addTimestamp' },
+                { text: 'addAffix', link: '/packages/logica/functions/Logger/addAffix' },
+                { text: 'addEnvironment', link: '/packages/logica/functions/Logger/addEnvironment' },
+                { text: 'addProgressBar', link: '/packages/logica/functions/Logger/addProgressBar' },
+                { text: 'addIndentation', link: '/packages/logica/functions/Logger/addIndentation' },
+                { text: 'addDivider', link: '/packages/logica/functions/Logger/addDivider' },
+                { text: 'out', link: '/packages/logica/functions/out' },
               ]
             },
             {
               text: 'Utils Class',
               items: [
-                { text: 'startGroup', link: '/libraries/logica/functions/Utils/startGroup' },
-                { text: 'startGroupCollapsed', link: '/libraries/logica/functions/Utils/startGroupCollapsed' },
-                { text: 'endGroup', link: '/libraries/logica/functions/Utils/endGroup' },
+                { text: 'startGroup', link: '/packages/logica/functions/Utils/startGroup' },
+                { text: 'startGroupCollapsed', link: '/packages/logica/functions/Utils/startGroupCollapsed' },
+                { text: 'endGroup', link: '/packages/logica/functions/Utils/endGroup' },
               ]
             },
 
@@ -71,8 +71,8 @@ export default defineConfig({
           text: '🏷️ Types',
           collapsed: false,
           items: [
-            { text: 'LogLevel', link: '/libraries/logica/types/LogLevel' },
-            { text: 'Theme', link: '/libraries/logica/types/Theme' },
+            { text: 'LogLevel', link: '/packages/logica/types/LogLevel' },
+            { text: 'Theme', link: '/packages/logica/types/Theme' },
           ]
         }
       ]
