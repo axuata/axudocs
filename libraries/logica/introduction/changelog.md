@@ -48,3 +48,6 @@ This page shows the **changes** in each version.
 - Add: Added some test codes for new functions
 - Refactor: out function
 - Refactor: Test codes
+
+## 📌 1.2.1
+- Edit & Refactor: package.json and tsconfig.json (Based on quickts)

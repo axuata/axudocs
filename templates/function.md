@@ -2,7 +2,9 @@
 Summary
 
 ## ⚙️ Parameters
-- `affix` (string): The **affix** to add to the log message.
+- `Lorem ipsum` (string): dolor sit amet, **consectetur adipiscing** elit.
+
+## 🔄 Returns
 
 ## 📝 Example
 ```typescript
