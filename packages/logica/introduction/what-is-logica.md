@@ -7,4 +7,4 @@ Logica is a lightweight [TypeScript](https://www.typescriptlang.org/) logging li
 - 🎯 TypeScript First – Fully typed API for better developer experience.
 
 ## Ready to use Logica?
-[Let's get started!](/libraries/logica/introduction/getting-started)
+[Let's get started!](/packages/logica/introduction/getting-started)

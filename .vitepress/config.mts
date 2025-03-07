@@ -53,7 +53,7 @@ export default defineConfig({
                 { text: 'addProgressBar', link: '/packages/logica/functions/Logger/addProgressBar' },
                 { text: 'addIndentation', link: '/packages/logica/functions/Logger/addIndentation' },
                 { text: 'addDivider', link: '/packages/logica/functions/Logger/addDivider' },
-                { text: 'out', link: '/packages/logica/functions/out' },
+                { text: 'out', link: '/packages/logica/functions/Logger/out' },
               ]
             },
             {
